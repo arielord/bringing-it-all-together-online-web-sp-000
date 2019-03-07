@@ -50,6 +50,7 @@ class Dog
     else
       "something"
     end
+    dog
   end
   
   def update
