@@ -27,6 +27,10 @@ class Dog
     dog = Dog.new(name: row[1], breed: row[2], id: row[0])
   end
   
+  def self.create()
+    
+  end
+  
   def update
     sql = <<-SQL
       UPDATE dogs
